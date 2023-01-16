@@ -15,6 +15,8 @@ codecs_sources = files(
   'gstav1picture.c',
   'gstvp9statefulparser.c',
   'gstcodecpicture.c',
+  'gstvp8encoder.c',
+  'gstvp8frame.c',
 )
 
 codecs_headers = files(
@@ -34,6 +36,8 @@ codecs_headers = files(
   'gstav1picture.h',
   'gstvp9statefulparser.h',
   'gstcodecpicture.h',
+  'gstvp8encoder.h',
+  'gstvp8frame.h',
 )
 
 cp_args = [
